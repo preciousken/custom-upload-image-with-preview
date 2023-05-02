@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image upload</title>
+    <!-- styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <input type="file" id="file" accept="image/*" hidden>
+        <div class="img-area" data-img="hello.png">
+            <p class="bx bxs-cloud-upload icon">upload</p>
+            <h3>Upload Image</h3>
+            <p>Image size must be less than <span>2MB</span></p>
+            <!-- <img src="img/saurcerer.png" alt=""> -->
+        </div>
+        <button class="select-image">Select Image</button>
+    </div>
+    <!-- custom javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
